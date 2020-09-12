@@ -30,3 +30,19 @@ a {
   color: #333; }
   a:hover {
     color: coral; }
+
+.btn-light, .btn-dark {
+  display: inline-block;
+  padding: 0.7rem 2rem;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 1rem; }
+
+.btn-light {
+  background-color: lightblue;
+  color: #1d1d24; }
+
+.btn-dark {
+  background-color: #1d1d24;
+  color: cornflowerblue; }
