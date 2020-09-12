@@ -9,8 +9,8 @@ body {
   line-height: 1.5; }
 
 header {
-  background: #1d1d24;
-  color: lightblue;
+  background: steelblue;
+  color: #fff;
   padding: 1rem; }
   header h1 {
     text-align: center; }
@@ -24,7 +24,7 @@ header {
     color: #fff; }
   .section-b {
     background: cornflowerblue;
-    color: #fff; }
+    color: #000; }
 
 a {
   color: #333; }
@@ -41,8 +41,8 @@ a {
 
 .btn-light {
   background-color: lightblue;
-  color: #1d1d24; }
+  color: #000; }
 
 .btn-dark {
   background-color: #1d1d24;
-  color: cornflowerblue; }
+  color: #fff; }
