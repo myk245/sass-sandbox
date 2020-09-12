@@ -1,2 +1,32 @@
+* {
+  margin: 0;
+  padding: 0; }
+
 body {
-  background: #7e7eb8; }
+  background: lightblue;
+  color: #1d1d24;
+  font-family: Arial Helvetica, sans-serif;
+  line-height: 1.5; }
+
+header {
+  background: #1d1d24;
+  color: lightblue;
+  padding: 1rem; }
+  header h1 {
+    text-align: center; }
+
+.section {
+  padding: 3rem; }
+  .section h3 {
+    font-size: 2rem; }
+  .section-a {
+    background: steelblue;
+    color: #fff; }
+  .section-b {
+    background: cornflowerblue;
+    color: #fff; }
+
+a {
+  color: #333; }
+  a:hover {
+    color: coral; }
