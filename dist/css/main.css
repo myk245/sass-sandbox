@@ -9,8 +9,8 @@ body {
   line-height: 1.5; }
 
 header {
-  background: steelblue;
-  color: #fff;
+  background: lightblue;
+  color: #000;
   padding: 1rem; }
   header h1 {
     text-align: center; }
@@ -42,7 +42,15 @@ a {
 .btn-light {
   background-color: lightblue;
   color: #000; }
+  .btn-light:hover {
+    --webkit-transform: $property;
+    -ms-transform: rotate(20deg);
+    transform: rotate(20deg); }
 
 .btn-dark {
   background-color: #1d1d24;
   color: #fff; }
+  .btn-dark:hover {
+    --webkit-transform: $property;
+    -ms-transform: rotate(-20deg);
+    transform: rotate(-20deg); }
